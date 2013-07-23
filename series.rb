@@ -4,6 +4,7 @@ class Series
 	  @number = num
     end
 
+
 	def digits
 	  @list = @number.to_s.split('').collect{|i| i.to_i}
 	  # print @list
